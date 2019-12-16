@@ -1,0 +1,10 @@
+eureka:
+  client:
+    #No se muestra informacion del microservicio en el servidor
+    fetch-registry: false
+    #No se registra el microservicio en el servidor
+    register-with-eureka: false
+  instance:
+    hostname: localhost
+server:
+  port: 1111
