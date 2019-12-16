@@ -1,0 +1,11 @@
+eureka:
+  client:
+    #Indica la url del servidor eureka para registrar el microservicio
+    service-url:
+      defaultZone: http://localhost:1111/eureka
+server:
+  port: 2222
+spring:
+  application:
+    #Nombre por el que se identifica el microservicio
+    name: greeting-service
